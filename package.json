@@ -4,20 +4,41 @@
   "description": "React component library",
   "keywords": [],
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshsylvester/component-library.git"
+  },
+  "author": "Josh Sylvester",
+  "license": "MIT",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-intl": "4.4.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "^3.4.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storysource": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@storybook/theming": "^5.3.18",
+    "babel-loader": "^8.1.0",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
