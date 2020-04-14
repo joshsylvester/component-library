@@ -1,12 +1,13 @@
 {
-  "name": "react",
+  "name": "@joshsylvester/component-library",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": ["react", "starter"],
-  "main": "src/index.js",
+  "description": "React component library",
+  "keywords": [],
+  "main": "lib/index.js",
   "dependencies": {
     "react": "16.12.0",
     "react-dom": "16.12.0",
+    "react-intl": "4.4.0",
     "react-scripts": "3.0.1"
   },
   "devDependencies": {
