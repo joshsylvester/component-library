@@ -1,6 +1,6 @@
 {
   "name": "sylvester-component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component library",
   "keywords": [],
   "main": "lib/index.js",
