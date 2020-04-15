@@ -31,7 +31,8 @@
     "@storybook/react": "^5.3.18",
     "@storybook/theming": "^5.3.18",
     "babel-loader": "^8.1.0",
-    "typescript": "3.3.3"
+    "typescript": "3.3.3",
+    "webpack": "^4.42.1"
   },
   "scripts": {
     "build": "babel lib -d dist",
